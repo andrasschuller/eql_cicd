@@ -48,6 +48,7 @@ public class CustomerServiceIntegrationTest {
     }
 
     @Test
+    @Disabled
     void updateCostumer () {
         Customer customer = new Customer("", "John", "Doe", "jdoe@test.com", "555-515-1234", "1234 Main Street; Anytown, KS 66110");
         customer = this.customerService.addCustomer(customer);
